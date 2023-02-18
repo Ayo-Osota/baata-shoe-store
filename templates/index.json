@@ -37,7 +37,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/hero-image.png",
         "image_height": "large",
-        "desktop_content_position": "top-left",
+        "desktop_content_position": "middle-left",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left"
       }
