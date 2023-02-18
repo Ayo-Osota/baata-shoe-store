@@ -1,7 +1,7 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "hero_section": {
+      "type": "hero-section",
       "blocks": {
         "heading": {
           "type": "heading",
@@ -201,7 +201,7 @@
     }
   },
   "order": [
-    "image_banner",
+    "hero_section",
     "rich_text",
     "featured_collection",
     "collage",
