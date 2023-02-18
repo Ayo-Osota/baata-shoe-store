@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Discover the perfect pair of shoes for any occasion",
             "heading_size": "h0"
           }
         },
@@ -37,7 +37,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/hero-image.png",
         "image_height": "large",
-        "desktop_content_position": "middle-left",
+        "desktop_content_position": "top-left",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left"
       }
