@@ -14,7 +14,7 @@
           "type": "text",
           "settings": {
             "text": "Find the perfect pair of shoes for any occasion with our collection of trendy sneakers, sandals, loafers, and boots. Our shoes are designed with comfort and style in mind, so you can look and feel your best no matter where your day takes you. Explore our collection and step into style today",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         },
         "button": {
