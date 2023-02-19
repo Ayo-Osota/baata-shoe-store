@@ -1,6 +1,19 @@
 {{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
 {{ 'component-rte.css' | asset_url | stylesheet_tag }}
 
+<style>
+  .image-with-text__text-item * {
+    color: #ffffff;
+  }
+
+  .image-with-text__text-item .button {
+    color: #ffffff;
+    background-color: #F44E77;
+    opacity: 1;
+    gap: 3rem;
+  }
+</style>
+
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -73,6 +86,7 @@
                   {{ block.shopify_attributes }}
                 >
                   {{ block.settings.button_label | escape }}
+                  {% render 'arrow-right' %}
                 </a>
               {%- endif -%}
           {%- endcase -%}

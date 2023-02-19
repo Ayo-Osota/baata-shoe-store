@@ -185,7 +185,7 @@
 
 .hero__box>*+.hero__text {
     margin-top: 1.5rem;
-    max-width: 32ch;
+    max-width: 64ch;
     color: rgb(106, 109, 158);
 }
 
