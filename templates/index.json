@@ -94,8 +94,51 @@
     },
     "faq": {
       "type": "FAQ",
+      "blocks": {
+        "38fdb9a4-6d56-4729-8550-ef54f9b47db4": {
+          "type": "faq",
+          "settings": {
+            "question": "How do I place an order on your site?",
+            "answer": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad<\/p>"
+          }
+        },
+        "f6a0a35d-61fd-42bd-b61c-1f511865815c": {
+          "type": "faq",
+          "settings": {
+            "question": "What payment methods do you accept?",
+            "answer": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad<\/p>"
+          }
+        },
+        "4f281a8c-47fa-4248-906f-7bb6528cfd1a": {
+          "type": "faq",
+          "settings": {
+            "question": "How much does shipping cost?",
+            "answer": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad<\/p>"
+          }
+        },
+        "c6587cae-2dd6-4de4-87b2-ac1158e1a5f3": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you offer international shipping?",
+            "answer": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad<\/p>"
+          }
+        },
+        "7cebfe70-1380-45bc-b933-03ab36c7d1eb": {
+          "type": "faq",
+          "settings": {
+            "question": "At this time, we only offer shipping within the United States.",
+            "answer": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "38fdb9a4-6d56-4729-8550-ef54f9b47db4",
+        "f6a0a35d-61fd-42bd-b61c-1f511865815c",
+        "4f281a8c-47fa-4248-906f-7bb6528cfd1a",
+        "c6587cae-2dd6-4de4-87b2-ac1158e1a5f3",
+        "7cebfe70-1380-45bc-b933-03ab36c7d1eb"
+      ],
       "settings": {
-        "title": "FAQ"
       }
     },
     "bb82043c-876a-4dc3-ac1a-ba934495ff15": {
