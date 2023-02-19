@@ -44,25 +44,7 @@
     },
     "advert_column": {
       "type": "advert-column",
-      "blocks": {
-        "heading": {
-          "type": "column",
-          "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "column"
-      ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
       }
     },
     "search_collection": {
@@ -74,6 +56,7 @@
         "show_vendor": false,
         "show_rating": false,
         "enable_filtering": true,
+        "filter_type": "horizontal",
         "enable_sorting": true,
         "article_show_date": true,
         "article_show_author": false,
@@ -161,10 +144,8 @@
         "template--18067611386154__bb82043c-876a-4dc3-ac1a-ba934495ff15-1676725822831f6a30-1": {
           "type": "text",
           "settings": {
-            "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "text_style": "body"
           }
         },
         "template--18067611386154__bb82043c-876a-4dc3-ac1a-ba934495ff15-1676725822831f6a30-2": {
