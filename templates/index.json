@@ -92,6 +92,12 @@
         "padding_bottom": 36
       }
     },
+    "faq": {
+      "type": "FAQ",
+      "settings": {
+        "title": "FAQ"
+      }
+    },
     "bb82043c-876a-4dc3-ac1a-ba934495ff15": {
       "type": "image-with-text",
       "blocks": {
@@ -142,6 +148,7 @@
     "advert_column",
     "search_collection",
     "featured_collection",
+    "faq",
     "bb82043c-876a-4dc3-ac1a-ba934495ff15"
   ]
 }
