@@ -138,7 +138,7 @@
           "type": "button",
           "settings": {
             "button_label": "Claim Your Free Pair Now!",
-            "button_link": ""
+            "button_link": "shopify:\/\/collections\/sale"
           }
         }
       },
