@@ -2191,7 +2191,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
 
 .cart-count-bubble {
   position: absolute;
-  background-color: rgb(var(--color-button));
+  background-color: #16194F;
   color: rgb(var(--color-button-text));
   height: 1.7rem;
   width: 1.7rem;
@@ -2996,5 +2996,17 @@ details-disclosure > details {
 
   .localization-form__select:focus {
     outline: transparent solid 1px;
+  }
+}
+
+
+.shopify-payment-button__button--unbranded {
+  background-color: #ffffff !important;
+  color: #16194F !important;
+}
+
+@media screen and (min-width: 990px) {
+  .product--stacked .product__media-item:not(.is-active) {
+    max-width: calc(33% - var(--grid-desktop-horizontal-spacing) / 2) !important;
   }
 }
