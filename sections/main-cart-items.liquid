@@ -44,6 +44,8 @@
    @media screen and (max-width: 750px) {
      .cart-item__media {
        gap: 0px;
+       border: solid red;
+       width: fit-content !important;
      }
 
      .cart-item__media svg {
@@ -71,6 +73,18 @@
         width: 15rem;
    }
    }
+
+   .cart-item__media svg {
+    z-index: 100;
+    }
+
+    .cart-item__link {
+      z-index: 99;
+      }
+
+      .cart-item__image-container {
+      z-index: -1;
+      }
 </style>
 
 {%- style -%}
