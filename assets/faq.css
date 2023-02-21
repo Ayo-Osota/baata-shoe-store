@@ -1,5 +1,5 @@
-.faq-section h1,
-.faq-section p {
+.faq-section h1:not(.tab-content h1),
+.faq-section p:not(.tab-content p) {
     color: #16194F;
     text-align: center;
 }
