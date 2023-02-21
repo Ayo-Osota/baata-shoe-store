@@ -8,9 +8,16 @@
 
   .image-with-text__text-item .button {
     color: #ffffff;
-    background-color: #F44E77;
+    background-color: #f44e77;
     opacity: 1;
     gap: 3rem;
+    white-space: nowrap;
+  }
+
+  @media screen and (max-width: 768px) {
+    .image-with-text__text-item .button {
+      gap: 1rem;
+    }
   }
 </style>
 
